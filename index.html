@@ -1,0 +1,953 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alexia Monroy — Diseñadora gráfica · Branding, Web & Ilustración</title>
+  <meta name="description" content="Portafolio de Alexia Monroy, diseñadora gráfica en Lima, Perú. Branding, diseño web y mobile, contenido B2B para redes sociales, ilustración y animación 2D.">
+  <meta name="author" content="Alexia Monroy">
+  <meta name="theme-color" content="#1556f0">
+  <!-- TODO: reemplazar por el dominio definitivo -->
+  <link rel="canonical" href="https://alexiamonroy.com/">
+  <link rel="alternate" hreflang="es" href="https://alexiamonroy.com/">
+  <link rel="alternate" hreflang="x-default" href="https://alexiamonroy.com/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_PE">
+  <meta property="og:title" content="Alexia Monroy — Diseñadora gráfica">
+  <meta property="og:description" content="Diseño que comunica, conecta y genera impacto. Branding, web & mobile, contenido B2B, ilustración y animación.">
+  <meta property="og:url" content="https://alexiamonroy.com/">
+  <meta property="og:image" content="https://alexiamonroy.com/assets/img/og-cover.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/alexia-avatar.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:ital,wght@0,300..700;1,300..500&display=swap">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <script>
+    document.documentElement.classList.add('js');
+    // intro plays once per visit; skip it before first paint on reloads
+    try { if (sessionStorage.getItem('am-intro')) document.documentElement.classList.add('no-intro'); } catch (e) {}
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Alexia Monroy",
+    "jobTitle": "Diseñadora gráfica",
+    "url": "https://alexiamonroy.com/",
+    "image": "https://alexiamonroy.com/assets/img/alexia-avatar.png",
+    "sameAs": ["https://www.linkedin.com/in/ale-monroy/"],
+    "alumniOf": { "@type": "EducationalOrganization", "name": "Instituto Corriente Alterna" },
+    "knowsLanguage": ["es", "it", "en"],
+    "knowsAbout": ["Branding", "Diseño web", "Diseño UI mobile", "Ilustración", "Animación 2D", "Contenido para redes sociales"],
+    "address": { "@type": "PostalAddress", "addressLocality": "Lima", "addressCountry": "PE" }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Saltar al contenido</a>
+
+  <div class="loader" aria-hidden="true">
+    <div class="loader__inner"><span data-loader-text></span><span class="loader__caret"></span></div>
+  </div>
+  <div class="cursor" aria-hidden="true"><span class="cursor__label">Ver caso</span></div>
+
+  <!-- ============================== NAV ============================== -->
+  <header class="nav" data-nav>
+    <a class="nav__logo" href="#top" aria-label="Alexia Monroy — inicio">alexia<span>_</span>monroy</a>
+    <nav aria-label="Principal">
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu">Menú</button>
+      <ul class="nav__menu" id="menu">
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <a class="nav__cta" href="#contacto"><span class="dot" aria-hidden="true"></span> Disponible 2026</a>
+  </header>
+
+  <main id="main">
+    <!-- ============================== HERO ============================== -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero__top">
+        <p>“No se trata solo de imaginar el futuro, sino de crearlo” — Arthur C. Clarke</p>
+        <p>Portafolio <em>2026</em></p>
+      </div>
+
+      <h1 class="hero__title" id="hero-title">
+        <span class="visually-hidden">Alexia Monroy, diseñadora gráfica: </span>
+        <span class="line"><span style="--i:0">Diseño que</span></span>
+        <span class="line"><span style="--i:1"><em>comunica,</em> conecta</span></span>
+        <span class="line"><span style="--i:2">y genera impacto.</span></span>
+      </h1>
+
+      <div class="hero__bottom">
+        <p class="hero__lede">Soy <strong>Alexia Monroy</strong>, diseñadora gráfica. Creo marcas, interfaces e ilustraciones donde cada pieza tiene algo que decir.</p>
+        <p class="hero__type">
+          <span class="visually-hidden">Especialidades: branding, web y mobile, contenido B2B, ilustración y animación.</span>
+          <span aria-hidden="true"><span class="us">_</span><span data-typed data-words="branding|web & mobile|contenido B2B|ilustración|animación 2D">branding</span><span class="caret"></span></span>
+        </p>
+        <a class="hero__scroll" href="#proyectos">Ver proyectos <span aria-hidden="true">↓</span></a>
+      </div>
+
+      <div class="hero__avatar" data-parallax aria-hidden="true">
+        <img src="assets/img/alexia-avatar.webp" width="420" height="420" alt="" fetchpriority="high">
+      </div>
+    </section>
+
+    <!-- ============================== CLIENT MARQUEE ============================== -->
+    <section class="marquee" aria-label="Marcas con las que he trabajado">
+      <button class="marquee__toggle" type="button" aria-pressed="false" data-marquee-toggle>Pausar</button>
+      <div class="marquee__track">
+        <ul>
+          <li>Marketing Thinking</li><li>Instituto Catastral de Lima</li><li>NGrowth</li>
+          <li>GenIT</li><li>Escuela Peruana del Agua</li><li>Revenue</li>
+        </ul>
+        <ul aria-hidden="true">
+          <li>Marketing Thinking</li><li>Instituto Catastral de Lima</li><li>NGrowth</li>
+          <li>GenIT</li><li>Escuela Peruana del Agua</li><li>Revenue</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================== WORK ============================== -->
+    <section class="section" id="proyectos" aria-labelledby="work-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">(01) Trabajo seleccionado</p>
+          <h2 id="work-title">Proyectos <em>destacados</em></h2>
+          <p>Experiencias profesionales con marcas reales y proyectos académicos y personales. Cada caso cuenta el reto, la idea y el proceso detrás del resultado.</p>
+        </header>
+
+        <div class="filters" role="group" aria-label="Filtrar proyectos por categoría">
+          <button type="button" data-filter="all" aria-pressed="true">Todos<sup>8</sup></button>
+          <button type="button" data-filter="branding" aria-pressed="false">Branding<sup>3</sup></button>
+          <button type="button" data-filter="digital" aria-pressed="false">Web & Mobile<sup>2</sup></button>
+          <button type="button" data-filter="contenido" aria-pressed="false">Contenido<sup>2</sup></button>
+          <button type="button" data-filter="ilustracion" aria-pressed="false">Ilustración<sup>3</sup></button>
+          <button type="button" data-filter="animacion" aria-pressed="false">Animación<sup>1</sup></button>
+        </div>
+        <p class="visually-hidden" aria-live="polite" data-filter-status></p>
+
+        <ul class="grid" data-grid>
+          <li class="card is-l" data-cats="branding contenido" data-reveal>
+            <a href="#caso-marketing-thinking" data-case="caso-marketing-thinking" data-cursor="Ver caso">
+              <figure class="card__media" style="--bg:#000">
+                <span class="card__badge">Cliente</span>
+                <img src="assets/img/mt-cover.webp" width="988" height="543" alt="Logotipo tipográfico de Marketing Thinking sobre fondo negro" loading="lazy" decoding="async">
+                <img class="alt" src="assets/img/mt-yt-1.webp" width="834" height="464" alt="" loading="lazy" decoding="async">
+              </figure>
+              <div class="card__meta">
+                <span class="card__num">01</span>
+                <h3>Marketing Thinking</h3>
+                <span class="card__go" aria-hidden="true">→</span>
+                <p>Rebranding y sistema de contenido B2B para LinkedIn, YouTube y Spotify.</p>
+                <ul class="tags"><li>Branding</li><li>Contenido</li></ul>
+              </div>
+            </a>
+          </li>
+
+          <li class="card is-s" data-cats="digital" data-reveal style="--d:.1s">
+            <a href="#caso-icl" data-case="caso-icl" data-cursor="Ver caso">
+              <figure class="card__media" style="--bg:#2c3578">
+                <span class="card__badge">Entidad pública</span>
+                <img src="assets/img/icl-web.webp" width="1173" height="606" alt="Prototipo de la web del Instituto Catastral de Lima con vista aérea de la ciudad" loading="lazy" decoding="async" style="object-position: 8% 50%">
+                <img class="alt contain" src="assets/img/icl-cover.webp" width="951" height="618" alt="" loading="lazy" decoding="async">
+              </figure>
+              <div class="card__meta">
+                <span class="card__num">02</span>
+                <h3>Instituto Catastral de Lima</h3>
+                <span class="card__go" aria-hidden="true">→</span>
+                <p>Prototipo web responsive e iconografía institucional.</p>
+                <ul class="tags"><li>Web</li><li>UI</li><li>Iconografía</li></ul>
+              </div>
+            </a>
+          </li>
+
+          <li class="card is-s" data-cats="branding digital" data-reveal>
+            <a href="#caso-cupcakelife" data-case="caso-cupcakelife" data-cursor="Ver caso">
+              <figure class="card__media" style="--bg:#380027">
+                <span class="card__badge">App</span>
+                <img class="contain" src="assets/img/cc-app.webp" width="1258" height="644" alt="Cuatro pantallas del prototipo de la app Cupcakelife" loading="lazy" decoding="async">
+                <img class="alt" src="assets/img/cc-logo-1.webp" width="469" height="471" alt="" loading="lazy" decoding="async">
+              </figure>
+              <div class="card__meta">
+                <span class="card__num">03</span>
+                <h3>Cupcakelife</h3>
+                <span class="card__go" aria-hidden="true">→</span>
+                <p>Brand kit, sistema de diseño y prototipo de app de repostería.</p>
+                <ul class="tags"><li>Branding</li><li>App UI</li></ul>
+              </div>
+            </a>
+          </li>
+
+          <li class="card is-l" data-cats="contenido" data-reveal style="--d:.1s">
+            <a href="#caso-redes" data-case="caso-redes" data-cursor="Ver caso">
+              <figure class="card__media" style="--bg:#e9e6de">
+                <span class="card__badge">4 marcas</span>
+                <div class="card__collage card__collage--4">
+                  <img src="assets/img/rs-ngrowth-logo.webp" width="301" height="302" alt="Logotipo NGrowth" loading="lazy" decoding="async">
+                  <img src="assets/img/rs-genit-logo.webp" width="305" height="302" alt="Logotipo GenIT" loading="lazy" decoding="async">
+                  <img src="assets/img/rs-epa-logo.webp" width="301" height="310" alt="Logotipo Escuela Peruana del Agua" loading="lazy" decoding="async">
+                  <img src="assets/img/rs-revenue-logo.webp" width="302" height="310" alt="Logotipo Revenue" loading="lazy" decoding="async">
+                </div>
+              </figure>
+              <div class="card__meta">
+                <span class="card__num">04</span>
+                <h3>Contenido para redes sociales</h3>
+                <span class="card__go" aria-hidden="true">→</span>
+                <p>NGrowth, GenIT, Escuela Peruana del Agua y Revenue: piezas para LinkedIn e Instagram y brochures.</p>
+                <ul class="tags"><li>Contenido</li><li>Infografía</li><li>Editorial</li></ul>
+              </div>
+            </a>
+          </li>
+
+          <li class="card is-l" data-cats="branding" data-reveal>
+            <a href="#caso-metropolitano" data-case="caso-metropolitano" data-cursor="Ver caso">
+              <figure class="card__media" style="--bg:#003cb8">
+                <span class="card__badge">Académico</span>
+                <img src="assets/img/metro-cover.webp" width="876" height="605" alt="Portada del manual de identidad del Metropolitano, curva amarilla sobre azul" loading="lazy" decoding="async">
+                <img class="alt contain" src="assets/img/metro-signs.webp" width="820" height="416" alt="" loading="lazy" decoding="async">
+              </figure>
+              <div class="card__meta">
+                <span class="card__num">05</span>
+                <h3>Metropolitano</h3>
+                <span class="card__go" aria-hidden="true">→</span>
+                <p>Rebranding del sistema de transporte: identidad visual y sistema gráfico.</p>
+                <ul class="tags"><li>Branding</li><li>Señalética</li></ul>
+              </div>
+            </a>
+          </li>
+
+          <li class="card is-s" data-cats="animacion ilustracion" data-reveal style="--d:.1s">
+            <a href="#caso-kokoro" data-case="caso-kokoro" data-cursor="Ver caso">
+              <figure class="card__media" style="--bg:#f3e7bf">
+                <span class="card__badge">Personal</span>
+                <img src="assets/img/kokoro.webp" width="1063" height="596" alt="Fotograma de Kokoro: un oso pintado a mano sostiene una taza junto a la ventana" loading="lazy" decoding="async">
+              </figure>
+              <div class="card__meta">
+                <span class="card__num">06</span>
+                <h3>Kokoro</h3>
+                <span class="card__go" aria-hidden="true">→</span>
+                <p>Animación 2D frame by frame en Procreate Dreams.</p>
+                <ul class="tags"><li>Animación</li><li>Ilustración</li></ul>
+              </div>
+            </a>
+          </li>
+
+          <li class="card is-s" data-cats="ilustracion" data-reveal>
+            <a href="#caso-photoshop" data-case="caso-photoshop" data-cursor="Ver caso">
+              <figure class="card__media" style="--bg:#10142a">
+                <span class="card__badge">Personal</span>
+                <div class="card__collage card__collage--row">
+                  <img src="assets/img/ps-submarine.webp" width="390" height="591" alt="Póster Submarine con medusas" loading="lazy" decoding="async">
+                  <img src="assets/img/ps-up-1.webp" width="318" height="591" alt="Ilustración de Carl y Ellie" loading="lazy" decoding="async">
+                  <img src="assets/img/ps-up-2.webp" width="319" height="591" alt="Ilustración de Carl en su sillón" loading="lazy" decoding="async">
+                  <img src="assets/img/ps-up-3.webp" width="320" height="591" alt="Ilustración de la casa con globos sobre la cascada" loading="lazy" decoding="async">
+                </div>
+              </figure>
+              <div class="card__meta">
+                <span class="card__num">07</span>
+                <h3>Pósters & ilustración digital</h3>
+                <span class="card__go" aria-hidden="true">→</span>
+                <p>Composición y pintura digital en Photoshop.</p>
+                <ul class="tags"><li>Ilustración</li><li>Póster</li></ul>
+              </div>
+            </a>
+          </li>
+
+          <li class="card is-l" data-cats="ilustracion" data-reveal style="--d:.1s">
+            <a href="#caso-infantil" data-case="caso-infantil" data-cursor="Ver caso">
+              <figure class="card__media" style="--bg:#dfe9c8">
+                <span class="card__badge">Académico</span>
+                <img src="assets/img/ill-1.webp" width="570" height="280" alt="Niña de cabello rizado en un bosque lleno de flores" loading="lazy" decoding="async">
+                <img class="alt" src="assets/img/ill-3.webp" width="956" height="594" alt="" loading="lazy" decoding="async">
+              </figure>
+              <div class="card__meta">
+                <span class="card__num">08</span>
+                <h3>Ilustración infantil</h3>
+                <span class="card__go" aria-hidden="true">→</span>
+                <p>Escenas narrativas para cuento ilustrado: color y línea.</p>
+                <ul class="tags"><li>Ilustración</li><li>Editorial</li></ul>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================== ABOUT ============================== -->
+    <section class="section about" id="sobre-mi" aria-labelledby="about-title">
+      <div class="wrap about__grid">
+        <div class="about__visual" data-reveal>
+          <p><span>Lima, Perú</span><span>Portafolio 2026</span></p>
+          <p class="about__hello">Hola, soy <strong>Alexia Monroy</strong></p>
+          <img src="assets/img/alexia-avatar.webp" width="420" height="420" alt="Avatar 3D de Alexia Monroy formando un corazón con las manos" loading="lazy" decoding="async">
+        </div>
+
+        <div>
+          <p class="eyebrow" data-reveal>(02) Sobre mí</p>
+          <h2 class="visually-hidden" id="about-title">Sobre Alexia Monroy</h2>
+          <p class="about__manifesto" data-reveal>Uso el diseño como una herramienta para <em>comunicar, conectar</em> y generar impacto. Me muevo entre la estrategia de una marca y el trazo de una ilustración.</p>
+          <div class="about__bio" data-reveal>
+            <p><strong>Estudiante de diseño gráfico</strong> de tercer ciclo en el Instituto Corriente Alterna. He realizado trabajos de diseño web y mobile, branding, ilustración, animación y contenido para redes sociales.</p>
+            <p>Soy una persona creativa, apasionada por el diseño. <strong>Me motiva</strong> aportar valor a nuevos proyectos: entender qué necesita decir una marca y encontrar la forma más clara —y más bella— de decirlo.</p>
+          </div>
+
+          <dl class="facts" data-reveal>
+            <div><dt>Marcas con las que he colaborado</dt><dd>06</dd></div>
+            <div><dt>Disciplinas creativas</dt><dd>05</dd></div>
+            <div><dt>Italiano — nivel avanzado</dt><dd>C1</dd></div>
+            <div><dt>Ciclo en Corriente Alterna</dt><dd>3<em>er</em></dd></div>
+          </dl>
+
+          <div class="details">
+            <div data-reveal>
+              <h3>Formación</h3>
+              <ul>
+                <li><span>Diseño gráfico — Instituto Corriente Alterna</span><span>En curso</span></li>
+                <li><span>Certificado Illustrator y Photoshop — Coderhouse</span><span>Certificado</span></li>
+              </ul>
+            </div>
+            <div data-reveal style="--d:.1s">
+              <h3>Idiomas</h3>
+              <ul>
+                <li><span>Español</span><span>Nativo</span></li>
+                <li><span>Italiano</span><span>C1</span></li>
+                <li><span>Inglés</span><span>A2</span></li>
+                <li><span>Lengua italiana de señas (LIS)</span><span>Básico</span></li>
+              </ul>
+            </div>
+            <div data-reveal>
+              <h3>Herramientas</h3>
+              <ul class="chips"><li>Figma</li><li>Illustrator</li><li>Photoshop</li><li>InDesign</li><li>Procreate</li><li>Procreate Dreams</li></ul>
+            </div>
+            <div data-reveal style="--d:.1s">
+              <h3>Clientes y colaboraciones</h3>
+              <ul class="chips"><li>Marketing Thinking</li><li>Instituto Catastral de Lima</li><li>NGrowth</li><li>GenIT</li><li>Escuela Peruana del Agua</li><li>Revenue</li></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== SERVICES ============================== -->
+    <section class="section services" id="servicios" aria-labelledby="services-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">(03) Servicios</p>
+          <h2 id="services-title">Qué puedo <em>hacer</em> por tu marca</h2>
+          <p>Del concepto al archivo final. Cada servicio parte de una pregunta: ¿qué necesita entender tu audiencia?</p>
+        </header>
+
+        <ul>
+          <li class="service" data-reveal>
+            <div class="service__row">
+              <span class="service__num">01</span>
+              <h3>Identidad & Branding</h3>
+              <p>Para marcas que nacen o que ya no se parecen a lo que son. Construyo una identidad coherente que se reconoce en cualquier punto de contacto.</p>
+              <ul><li>Logotipo y símbolo</li><li>Paleta y tipografía</li><li>Manual de identidad</li><li>Aplicaciones y señalética</li></ul>
+            </div>
+          </li>
+          <li class="service" data-reveal>
+            <div class="service__row">
+              <span class="service__num">02</span>
+              <h3>Diseño web & mobile</h3>
+              <p>Para productos y sitios difíciles de usar. Diseño interfaces claras, responsive y accesibles, con prototipos listos para validar.</p>
+              <ul><li>Arquitectura y wireframes</li><li>UI y prototipo en Figma</li><li>Sistema de diseño básico</li><li>Iconografía</li></ul>
+            </div>
+          </li>
+          <li class="service" data-reveal>
+            <div class="service__row">
+              <span class="service__num">03</span>
+              <h3>Contenido para redes & B2B</h3>
+              <p>Para marcas con ideas complejas que necesitan publicarse con constancia. Convierto conceptos en piezas escaneables con una voz visual consistente.</p>
+              <ul><li>Carruseles e infografías</li><li>Miniaturas YouTube y portadas de podcast</li><li>Plantillas por canal</li><li>Brochures</li></ul>
+            </div>
+          </li>
+          <li class="service" data-reveal>
+            <div class="service__row">
+              <span class="service__num">04</span>
+              <h3>Ilustración & animación 2D</h3>
+              <p>Para historias que necesitan un toque humano. Ilustro y animo frame by frame para cuentos, campañas y piezas audiovisuales.</p>
+              <ul><li>Ilustración editorial e infantil</li><li>Pósters</li><li>Animación frame by frame</li><li>Edición de video</li></ul>
+            </div>
+          </li>
+        </ul>
+
+        <div class="process">
+          <h3>Mi proceso de trabajo</h3>
+          <ol>
+            <li data-reveal><h4>Escuchar</h4><p>Entiendo la marca, la audiencia y el objetivo de negocio. Reviso lo que existe antes de proponer.</p></li>
+            <li data-reveal style="--d:.08s"><h4>Concepto</h4><p>Defino una idea rectora y una dirección visual: referencias, paleta, tipografía y tono.</p></li>
+            <li data-reveal style="--d:.16s"><h4>Diseño & prototipo</h4><p>Bocetos, iteraciones y prototipos en Figma o Procreate, con rondas de feedback claras.</p></li>
+            <li data-reveal style="--d:.24s"><h4>Entrega & sistema</h4><p>Archivos finales, plantillas y guías para que la marca siga creciendo con coherencia.</p></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== TESTIMONIALS ============================== -->
+    <!-- Hidden until real client quotes exist: remove `hidden`, replace the placeholders,
+         and renumber the contact eyebrow back to (05). -->
+    <section class="section voices" aria-labelledby="voices-title" hidden>
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">(04) Testimonios</p>
+          <h2 id="voices-title">Lo que dicen <em>de mi trabajo</em></h2>
+          <div class="voices__nav">
+            <button type="button" data-voices="prev" aria-label="Testimonio anterior">←</button>
+            <button type="button" data-voices="next" aria-label="Testimonio siguiente">→</button>
+          </div>
+        </header>
+
+        <!-- TODO: reemplazar los tres testimonios de ejemplo por citas reales de clientes
+             (solicitar 2–3 líneas a Marketing Thinking, ICL, NGrowth, GenIT, Revenue o EPA)
+             y quitar la clase "voice--placeholder". -->
+        <div class="voices__track" data-voices-track tabindex="0" role="region" aria-label="Testimonios, desplazable horizontalmente">
+          <figure class="voice voice--placeholder">
+            <blockquote><p>Espacio reservado para el testimonio de un cliente: dos o tres líneas sobre cómo fue trabajar juntos y qué cambió con el proyecto.</p></blockquote>
+            <figcaption><span aria-hidden="true">—</span><div>Nombre del cliente<small>Cargo · Empresa</small></div></figcaption>
+          </figure>
+          <figure class="voice voice--placeholder">
+            <blockquote><p>Espacio reservado para un segundo testimonio, idealmente sobre un proyecto de branding o contenido B2B.</p></blockquote>
+            <figcaption><span aria-hidden="true">—</span><div>Nombre del cliente<small>Cargo · Empresa</small></div></figcaption>
+          </figure>
+          <figure class="voice voice--placeholder">
+            <blockquote><p>Espacio reservado para un tercer testimonio, idealmente sobre un proyecto web o de ilustración.</p></blockquote>
+            <figcaption><span aria-hidden="true">—</span><div>Nombre del cliente<small>Cargo · Empresa</small></div></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================== CONTACT / FOOTER ============================== -->
+  <footer class="contact" id="contacto" aria-labelledby="contact-title">
+    <div class="wrap">
+      <p class="eyebrow">(04) Contacto</p>
+      <h2 class="contact__title" id="contact-title">Hablemos<span class="us" aria-hidden="true">_</span></h2>
+
+      <div class="contact__grid">
+        <div>
+          <p class="contact__lede">¿Tienes un proyecto en mente, una marca por construir o una historia por contar? Escríbeme y lo conversamos.</p>
+          <p class="status"><span class="dot" aria-hidden="true"></span> Disponible para proyectos freelance y prácticas · 2026</p>
+          <div class="channels">
+            <a href="https://www.linkedin.com/in/ale-monroy/" target="_blank" rel="noopener me">
+              <span><small>LinkedIn</small>in/ale-monroy</span><span aria-hidden="true">↗</span>
+            </a>
+            <!-- TODO: añadir canales cuando existan:
+            <a href="mailto:hola@alexiamonroy.com"><span><small>Correo</small>hola@alexiamonroy.com</span><span aria-hidden="true">↗</span></a>
+            <a href="https://www.behance.net/USUARIO" target="_blank" rel="noopener me"><span><small>Behance</small>USUARIO</span><span aria-hidden="true">↗</span></a>
+            <a href="https://dribbble.com/USUARIO" target="_blank" rel="noopener me"><span><small>Dribbble</small>USUARIO</span><span aria-hidden="true">↗</span></a>
+            <a href="https://www.instagram.com/USUARIO" target="_blank" rel="noopener me"><span><small>Instagram</small>@USUARIO</span><span aria-hidden="true">↗</span></a>
+            -->
+          </div>
+        </div>
+
+        <!-- TODO: conectar a un servicio de formularios (p. ej. Formspree) reemplazando data-endpoint -->
+        <form class="form" data-form data-endpoint="https://formspree.io/f/TU_FORM_ID" novalidate>
+          <p class="form__note full">Los campos con <span aria-hidden="true">*</span> son obligatorios.</p>
+          <div class="field">
+            <label for="f-name">Nombre <span class="req" aria-hidden="true">*</span></label>
+            <input id="f-name" name="nombre" type="text" autocomplete="name" required placeholder="¿Cómo te llamas?" aria-describedby="e-name">
+            <p class="field__error" id="e-name" data-error="Escribe tu nombre."></p>
+          </div>
+          <div class="field">
+            <label for="f-email">Correo <span class="req" aria-hidden="true">*</span></label>
+            <input id="f-email" name="email" type="email" autocomplete="email" inputmode="email" required placeholder="tu@correo.com" aria-describedby="e-email">
+            <p class="field__error" id="e-email" data-error="Escribe un correo válido, por ejemplo nombre@empresa.com."></p>
+          </div>
+          <div class="field full">
+            <label for="f-type">Tipo de proyecto</label>
+            <select id="f-type" name="tipo">
+              <option>Branding / identidad</option>
+              <option>Diseño web o app</option>
+              <option>Contenido para redes</option>
+              <option>Ilustración o animación</option>
+              <option>Otro</option>
+            </select>
+          </div>
+          <div class="field full">
+            <label for="f-msg">Mensaje <span class="req" aria-hidden="true">*</span></label>
+            <textarea id="f-msg" name="mensaje" required placeholder="Cuéntame sobre tu proyecto, plazos y objetivos." aria-describedby="e-msg"></textarea>
+            <p class="field__error" id="e-msg" data-error="Cuéntame brevemente sobre tu proyecto."></p>
+          </div>
+          <div class="form__foot full">
+            <p class="form__status" role="status" data-form-status></p>
+            <button class="btn btn--light" type="submit">Enviar mensaje <span class="arrow" aria-hidden="true">→</span></button>
+          </div>
+        </form>
+      </div>
+
+      <div class="footer">
+        <p>© <span data-year>2026</span> Alexia Monroy. Diseño gráfico — Lima, Perú.</p>
+        <p><em>“No se trata solo de imaginar el futuro, sino de crearlo.”</em></p>
+        <a class="link-u" href="#top">Volver arriba ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================================================================
+       CASE STUDIES (native <dialog>, content indexable in the DOM)
+       ================================================================== -->
+
+  <!-- 01 · Marketing Thinking -->
+  <dialog class="case" id="caso-marketing-thinking" aria-labelledby="t-mt">
+    <div class="case__scroll" data-lenis-prevent>
+      <div class="case__bar"><span>Caso 01 / 08 — Cliente</span><button class="case__close" type="button" data-close>Cerrar <span aria-hidden="true">✕</span></button></div>
+      <article class="case__body">
+        <header class="case__head">
+          <p class="eyebrow">Branding · Contenido B2B</p>
+          <h2 id="t-mt">Marketing Thinking</h2>
+          <p class="case__lede">Rebranding y sistema de contenido para un podcast y blog B2B que vive en LinkedIn, YouTube y Spotify.</p>
+          <dl class="case__facts">
+            <div><dt>Cliente</dt><dd>Marketing Thinking — Podcast / Blog B2B en LinkedIn</dd></div>
+            <div><dt>Mi rol</dt><dd>Rebranding de la marca y diseño de contenido</dd></div>
+            <div><dt>Entregables</dt><dd>Identidad, miniaturas de YouTube, posts de LinkedIn, portadas de Spotify</dd></div>
+            <div><dt>Herramientas</dt><dd>Figma, Illustrator, Photoshop</dd></div>
+          </dl>
+        </header>
+        <figure class="case__cover" style="--bg:#000"><img src="assets/img/mt-cover.webp" width="988" height="543" alt="Logotipo de Marketing Thinking con el lema: El contenido es el puente adecuado para generar un vínculo" loading="lazy" decoding="async"></figure>
+
+        <section class="case__block"><h3><span>01</span> Contexto y desafío</h3><div>
+          <p>Marketing Thinking publica ideas de marketing B2B en formato podcast y blog. Su objetivo: <strong>atraer clientes B2B</strong>, una audiencia exigente que decide con datos y desconfía de lo genérico.</p>
+          <p>La marca necesitaba una identidad renovada y, sobre todo, una forma consistente de publicar en tres plataformas con formatos y ritmos distintos.</p>
+        </div></section>
+
+        <section class="case__block"><h3><span>02</span> Concepto y estrategia</h3><div>
+          <p>La idea rectora salió de su propio lema: <strong>“El contenido es el puente adecuado para generar un vínculo.”</strong> El diseño debía funcionar como ese puente: claro, directo y con autoridad.</p>
+          <ul>
+            <li>Base monocromática negra con tipografía grotesca de alto contraste, que transmite seriedad editorial.</li>
+            <li>Píldoras y etiquetas como recurso gráfico para ordenar ideas (Confuso → Claro → Diferenciado).</li>
+            <li>Un único acento amarillo para señalar la idea clave de cada pieza.</li>
+          </ul>
+        </div></section>
+
+        <section class="case__block"><h3><span>03</span> Proceso creativo</h3><div>
+          <p>Primero el rebranding: logotipo tipográfico, paleta y reglas de composición. Después, plantillas por canal pensadas para producir rápido sin perder calidad:</p>
+          <ul>
+            <li><strong>YouTube (16:9):</strong> titulares grandes y diagramas legibles incluso en miniatura.</li>
+            <li><strong>LinkedIn (4:5):</strong> infografías y frameworks —niveles de claridad del messaging, posicionamiento de marca vs. producto, técnicas de persuasión.</li>
+            <li><strong>Spotify y LinkedIn:</strong> portadas de episodio con el retrato del invitado en un arco y una barra de credenciales.</li>
+          </ul>
+        </div></section>
+
+        <section class="case__block"><h3><span>04</span> Solución visual</h3><div><p>Un sistema reconocible a primera vista en el feed, flexible para cualquier tema.</p></div>
+          <div class="gallery g-2">
+            <figure style="--bg:#000"><img src="assets/img/mt-yt-1.webp" width="834" height="464" alt="Miniatura de YouTube: Crea contenido como McKinsey, rodeado de logos de Gartner, Deloitte, BCG y Reforge" loading="lazy" decoding="async"></figure>
+            <figure style="--bg:#000"><img src="assets/img/mt-yt-2.webp" width="846" height="464" alt="Miniatura de YouTube: ¿Tu messaging B2B es confuso? con la secuencia Confuso, Claro, Diferenciado" loading="lazy" decoding="async"></figure>
+          </div>
+          <div class="gallery g-3">
+            <figure style="--bg:#000"><img src="assets/img/mt-li-1.webp" width="494" height="607" alt="Post de LinkedIn: niveles de claridad de messaging de tu propuesta de valor" loading="lazy" decoding="async"></figure>
+            <figure style="--bg:#000"><img src="assets/img/mt-li-2.webp" width="480" height="611" alt="Post de LinkedIn: posicionamiento de marca vs. posicionamiento de producto, ejemplo de HubSpot" loading="lazy" decoding="async"></figure>
+            <figure style="--bg:#000"><img src="assets/img/mt-li-3.webp" width="489" height="611" alt="Post de LinkedIn: técnicas de persuasión con ejemplos de contenido" loading="lazy" decoding="async"></figure>
+          </div>
+          <div class="gallery g-2">
+            <figure style="--bg:#000"><img src="assets/img/mt-sp-1.webp" width="833" height="474" alt="Portada del episodio 43 con el invitado Luis Benitez" loading="lazy" decoding="async"></figure>
+            <figure style="--bg:#000"><img src="assets/img/mt-sp-2.webp" width="833" height="474" alt="Portada del episodio 43 con dos invitados" loading="lazy" decoding="async"></figure>
+          </div>
+        </section>
+
+        <section class="case__block"><h3><span>05</span> Resultados e impacto</h3><div>
+          <ul>
+            <li>Una identidad renovada aplicada de forma coherente en <strong>LinkedIn, YouTube y Spotify</strong>.</li>
+            <li>Plantillas reutilizables que agilizan la producción semanal de contenido.</li>
+            <li>Temas complejos de marketing B2B traducidos en piezas visuales fáciles de escanear y compartir.</li>
+          </ul>
+        </div></section>
+
+        <a class="case__next" href="#caso-icl" data-case="caso-icl"><small>Siguiente caso</small><span>Instituto Catastral de Lima →</span></a>
+      </article>
+    </div>
+  </dialog>
+
+  <!-- 02 · ICL -->
+  <dialog class="case" id="caso-icl" aria-labelledby="t-icl">
+    <div class="case__scroll" data-lenis-prevent>
+      <div class="case__bar"><span>Caso 02 / 08 — Entidad pública</span><button class="case__close" type="button" data-close>Cerrar <span aria-hidden="true">✕</span></button></div>
+      <article class="case__body">
+        <header class="case__head">
+          <p class="eyebrow">Web · UI · Iconografía</p>
+          <h2 id="t-icl">Instituto Catastral de Lima</h2>
+          <p class="case__lede">Un sitio web más cercano, responsive y fácil de usar, sin perder el tono formal que requiere una entidad pública.</p>
+          <dl class="case__facts">
+            <div><dt>Cliente</dt><dd>Instituto Catastral de Lima (ICL)</dd></div>
+            <div><dt>Mi rol</dt><dd>Diseño del prototipo web e iconografía</dd></div>
+            <div><dt>Entregables</dt><dd>Prototipo responsive, set de íconos</dd></div>
+            <div><dt>Enlace</dt><dd><a class="link-u" href="https://www.icl.gob.pe" target="_blank" rel="noopener">icl.gob.pe ↗</a></dd></div>
+          </dl>
+        </header>
+        <figure class="case__cover" style="--bg:#2c3578"><img src="assets/img/icl-cover.webp" width="951" height="618" alt="Logotipo del Instituto Catastral de Lima sobre fondo azul" loading="lazy" decoding="async"></figure>
+
+        <section class="case__block"><h3><span>01</span> Contexto y desafío</h3><div>
+          <p>El ICL gestiona información territorial de Lima y ofrece trámites y capacitaciones a la ciudadanía. Su web debía <strong>acercarse a las personas</strong>: funcionar bien en el celular y facilitar encontrar lo importante.</p>
+          <p>La restricción: hacerlo sin perder la formalidad y la confianza que se espera de una institución pública.</p>
+        </div></section>
+
+        <section class="case__block"><h3><span>02</span> Concepto y estrategia</h3><div>
+          <p>Claridad institucional con calidez humana. El mensaje del hero —<strong>“Juntos construimos un mañana mejor”</strong>— se apoya en una fotografía aérea de Lima: la ciudad como protagonista del trabajo del instituto.</p>
+          <ul>
+            <li>Paleta azul de la marca para mantener la autoridad.</li>
+            <li>Accesos visibles a lo más buscado: Portal de transparencia, Buscar, Menú y cursos de capacitación.</li>
+            <li>Íconos propios para que cada servicio se reconozca de un vistazo.</li>
+          </ul>
+        </div></section>
+
+        <section class="case__block"><h3><span>03</span> Proceso creativo</h3><div>
+          <p>Análisis del sitio existente, priorización de contenidos y tareas frecuentes, wireframes y prototipo en Figma. En paralelo diseñé una familia de íconos con el mismo trazo y la misma paleta que el logotipo.</p>
+        </div></section>
+
+        <section class="case__block"><h3><span>04</span> Solución visual</h3><div><p>Prototipo web con cabecera de accesos rápidos, carrusel principal y navegación simplificada; y un set de íconos para servicios: catastro y topografía, Libro de Reclamaciones digital, TUPA, TUSNE, biblioteca, Municipalidad de Lima, mapa urbano y distritos.</p></div>
+          <div class="gallery">
+            <figure><img src="assets/img/icl-web.webp" width="1173" height="606" alt="Prototipo de la página de inicio del ICL con el mensaje Juntos construimos un mañana mejor sobre una vista aérea de Lima" loading="lazy" decoding="async"><figcaption>Prototipo de página de inicio</figcaption></figure>
+            <figure style="--bg:#fff"><img src="assets/img/icl-icons.webp" width="1203" height="465" alt="Set de íconos del ICL: topografía, Libro de Reclamaciones, carpetas TUPA y TUSNE, biblioteca, catedral de Lima, mapa urbano y mapa de distritos" loading="lazy" decoding="async"><figcaption>Iconografía ICL</figcaption></figure>
+          </div>
+        </section>
+
+        <section class="case__block"><h3><span>05</span> Resultados e impacto</h3><div>
+          <ul>
+            <li>Un prototipo navegable y <strong>responsive</strong>, listo para validar con usuarios y desarrollo.</li>
+            <li>Una iconografía coherente que facilita reconocer cada trámite.</li>
+            <li>Una propuesta que equilibra cercanía ciudadana y formalidad institucional.</li>
+          </ul>
+        </div></section>
+
+        <a class="case__next" href="#caso-cupcakelife" data-case="caso-cupcakelife"><small>Siguiente caso</small><span>Cupcakelife →</span></a>
+      </article>
+    </div>
+  </dialog>
+
+  <!-- 03 · Cupcakelife -->
+  <dialog class="case" id="caso-cupcakelife" aria-labelledby="t-cc">
+    <div class="case__scroll" data-lenis-prevent>
+      <div class="case__bar"><span>Caso 03 / 08 — App</span><button class="case__close" type="button" data-close>Cerrar <span aria-hidden="true">✕</span></button></div>
+      <article class="case__body">
+        <header class="case__head">
+          <p class="eyebrow">Branding · App UI</p>
+          <h2 id="t-cc">Cupcakelife</h2>
+          <p class="case__lede">Brand kit y prototipo de una aplicación móvil de repostería, con un sistema de diseño básico para la interfaz.</p>
+          <dl class="case__facts">
+            <div><dt>Proyecto</dt><dd>App de repostería</dd></div>
+            <div><dt>Mi rol</dt><dd>Branding, UI y prototipado</dd></div>
+            <div><dt>Entregables</dt><dd>Logotipo, monograma, paleta, sistema de diseño, prototipo</dd></div>
+            <div><dt>Herramientas</dt><dd>Figma, Illustrator</dd></div>
+          </dl>
+        </header>
+        <figure class="case__cover" style="--bg:#380027"><img src="assets/img/cc-app.webp" width="1258" height="644" alt="Cuatro pantallas del prototipo de Cupcakelife" loading="lazy" decoding="async"></figure>
+
+        <section class="case__block"><h3><span>01</span> Contexto y desafío</h3><div>
+          <p>Hornear en casa puede ser intimidante: recetas largas, ingredientes olvidados, resultados inciertos. La app debía hacer que <strong>hornear se sintiera fácil y divertido</strong>, con una marca memorable para un público amplio.</p>
+        </div></section>
+
+        <section class="case__block"><h3><span>02</span> Concepto y estrategia</h3><div>
+          <p>Dulzura con carácter. Un monograma <strong>“C” caligráfico coronado por un gorro de chef</strong> condensa la marca en un ícono de app. El contraste entre un ciruela profundo y un rosa glaseado evita lo infantil y le da personalidad.</p>
+        </div>
+          <div class="swatches">
+            <div class="swatch" style="--c:#380027"><i></i><span><b>Ciruela</b>#380027</span></div>
+            <div class="swatch" style="--c:#ff9ac6"><i></i><span><b>Glaseado</b>#FF9AC6</span></div>
+            <div class="swatch" style="--c:#fffaf6"><i></i><span><b>Crema</b>#FFFAF6</span></div>
+            <div class="swatch" style="--c:#121212"><i></i><span><b>Cacao</b>#121212</span></div>
+          </div>
+        </section>
+
+        <section class="case__block"><h3><span>03</span> Proceso creativo</h3><div>
+          <p>Exploración de logotipo y monograma, definición de paleta y tipografía, y luego componentes base —botones, tarjetas, campos y navegación— para construir las pantallas clave en Figma.</p>
+          <ul>
+            <li><strong>Onboarding:</strong> “Hornear nunca fue tan fácil” e “Ingredientes listos, sin complicaciones”, con ilustraciones propias.</li>
+            <li><strong>Feedback:</strong> valoración con estrellas y comentario tras cada receta.</li>
+            <li><strong>Colecciones:</strong> organizar recetas por ocasión (Cumpleaños, Para vender).</li>
+          </ul>
+        </div></section>
+
+        <section class="case__block"><h3><span>04</span> Solución visual</h3><div><p>Una marca que funciona igual de bien como ícono de app que como logotipo completo.</p></div>
+          <div class="gallery g-2">
+            <figure style="--bg:#380027"><img src="assets/img/cc-logo-1.webp" width="469" height="471" alt="Monograma C rosa con gorro de chef blanco" loading="lazy" decoding="async"></figure>
+            <figure style="--bg:#380027"><img src="assets/img/cc-logo-2.webp" width="471" height="471" alt="Logotipo completo Cupcakelife en rosa sobre ciruela" loading="lazy" decoding="async"></figure>
+          </div>
+        </section>
+
+        <section class="case__block"><h3><span>05</span> Resultados e impacto</h3><div>
+          <ul>
+            <li>Brand kit completo listo para aplicar en tienda de apps y redes.</li>
+            <li>Prototipo de cuatro flujos clave, preparado para pruebas con usuarios.</li>
+            <li>Un sistema de diseño básico que permite escalar nuevas pantallas con coherencia.</li>
+          </ul>
+        </div></section>
+
+        <a class="case__next" href="#caso-redes" data-case="caso-redes"><small>Siguiente caso</small><span>Contenido para redes →</span></a>
+      </article>
+    </div>
+  </dialog>
+
+  <!-- 04 · Social content -->
+  <dialog class="case" id="caso-redes" aria-labelledby="t-rs">
+    <div class="case__scroll" data-lenis-prevent>
+      <div class="case__bar"><span>Caso 04 / 08 — Diversas empresas</span><button class="case__close" type="button" data-close>Cerrar <span aria-hidden="true">✕</span></button></div>
+      <article class="case__body">
+        <header class="case__head">
+          <p class="eyebrow">Contenido · Infografía · Editorial</p>
+          <h2 id="t-rs">Contenido para redes sociales</h2>
+          <p class="case__lede">Cuatro marcas, cuatro voces. Contenido para LinkedIn e Instagram y brochures promocionales para cursos y programas de formación.</p>
+          <dl class="case__facts">
+            <div><dt>Clientes</dt><dd>NGrowth, GenIT, Escuela Peruana del Agua, Revenue</dd></div>
+            <div><dt>Mi rol</dt><dd>Diseño de contenido y piezas promocionales</dd></div>
+            <div><dt>Canales</dt><dd>LinkedIn, Instagram, brochures</dd></div>
+            <div><dt>Herramientas</dt><dd>Figma, Illustrator, Photoshop, InDesign</dd></div>
+          </dl>
+        </header>
+
+        <section class="case__block"><h3><span>01</span> Contexto y desafío</h3><div>
+          <p>Cada marca tenía su propia identidad, su audiencia y su ritmo de publicación. El reto era <strong>respetar cada voz visual</strong> y, al mismo tiempo, hacer que información densa —programas, datos, comparativas— se entendiera en segundos.</p>
+        </div></section>
+
+        <section class="case__block"><h3><span>02</span> Concepto y estrategia</h3><div>
+          <p>La información como diseño. En lugar de decorar el texto, lo estructuré: tablas comparativas, gráficos de radar, escalones numerados y jerarquías tipográficas que guían la lectura.</p>
+        </div></section>
+
+        <section class="case__block"><h3><span>03</span> Proceso creativo</h3><div>
+          <ul>
+            <li><strong>NGrowth:</strong> piezas para el conversatorio del programa Hercoderise GenAI Leadership, con retrato recortado, fecha y llamado a registrarse.</li>
+            <li><strong>GenIT:</strong> infografías sobre liderazgo IT, como “Los 4 roles de liderazgo IT” y un gráfico de radar sobre operadores vs. estrategas.</li>
+            <li><strong>Escuela Peruana del Agua:</strong> brochure de diplomado y anuncio del curso de Modelación Hidrológica.</li>
+            <li><strong>Revenue:</strong> comparativa B2B vs B2C y guía de 21 herramientas de prospección.</li>
+          </ul>
+        </div></section>
+
+        <section class="case__block"><h3><span>04</span> Solución visual</h3><div><p>Piezas adaptadas a cada marca, unidas por el mismo criterio: jerarquía clara y lectura rápida.</p></div>
+          <div class="gallery g-4 g-tight">
+            <figure><img src="assets/img/rs-ng-1.webp" width="287" height="515" alt="Historia de Instagram de NGrowth: Hercoderise GenAI Leadership Program con Nicole Carranza" loading="lazy" decoding="async"><figcaption>NGrowth</figcaption></figure>
+            <figure><img src="assets/img/rs-ng-2.webp" width="408" height="515" alt="Post de NGrowth anunciando el conversatorio Innovar con propósito" loading="lazy" decoding="async"><figcaption>NGrowth</figcaption></figure>
+            <figure><img src="assets/img/rs-gen-1.webp" width="410" height="514" alt="Infografía de GenIT: los 4 roles de liderazgo IT" loading="lazy" decoding="async"><figcaption>GenIT</figcaption></figure>
+            <figure><img src="assets/img/rs-gen-2.webp" width="409" height="514" alt="Infografía de GenIT con gráfico de radar sobre líderes de IT" loading="lazy" decoding="async"><figcaption>GenIT</figcaption></figure>
+          </div>
+          <div class="gallery g-4 g-tight">
+            <figure><img src="assets/img/rs-epa-1.webp" width="408" height="577" alt="Página de temario del brochure de diplomado de la Escuela Peruana del Agua" loading="lazy" decoding="async"><figcaption>Escuela Peruana del Agua</figcaption></figure>
+            <figure><img src="assets/img/rs-epa-2.webp" width="402" height="406" alt="Anuncio del curso Modelación Hidrológica con el docente" loading="lazy" decoding="async"><figcaption>Escuela Peruana del Agua</figcaption></figure>
+            <figure><img src="assets/img/rs-rev-1.webp" width="335" height="426" alt="Tabla comparativa B2B vs B2C Marketing de Revenue" loading="lazy" decoding="async"><figcaption>Revenue</figcaption></figure>
+            <figure><img src="assets/img/rs-rev-2.webp" width="337" height="426" alt="Post de Revenue sobre 21 herramientas de prospección B2B" loading="lazy" decoding="async"><figcaption>Revenue</figcaption></figure>
+          </div>
+        </section>
+
+        <section class="case__block"><h3><span>05</span> Resultados e impacto</h3><div>
+          <ul>
+            <li>Contenido constante para <strong>cuatro marcas</strong> de sectores distintos: tecnología, formación y agua.</li>
+            <li>Brochures promocionales para cursos y programas de formación.</li>
+            <li>Capacidad de adaptarme a identidades existentes sin perder calidad ni coherencia.</li>
+          </ul>
+        </div></section>
+
+        <a class="case__next" href="#caso-metropolitano" data-case="caso-metropolitano"><small>Siguiente caso</small><span>Metropolitano →</span></a>
+      </article>
+    </div>
+  </dialog>
+
+  <!-- 05 · Metropolitano -->
+  <dialog class="case" id="caso-metropolitano" aria-labelledby="t-metro">
+    <div class="case__scroll" data-lenis-prevent>
+      <div class="case__bar"><span>Caso 05 / 08 — Académico</span><button class="case__close" type="button" data-close>Cerrar <span aria-hidden="true">✕</span></button></div>
+      <article class="case__body">
+        <header class="case__head">
+          <p class="eyebrow">Branding · Sistema gráfico · Señalética</p>
+          <h2 id="t-metro">Metropolitano</h2>
+          <p class="case__lede">Propuesta de rebranding del sistema de transporte público de Lima, enfocada en renovar su identidad visual y su sistema gráfico.</p>
+          <dl class="case__facts">
+            <div><dt>Tipo</dt><dd>Proyecto académico — Transporte público</dd></div>
+            <div><dt>Mi rol</dt><dd>Identidad visual y sistema gráfico</dd></div>
+            <div><dt>Entregables</dt><dd>Manual de identidad, campaña, fotocheck, señalética</dd></div>
+            <div><dt>Herramientas</dt><dd>Illustrator, Photoshop, InDesign</dd></div>
+          </dl>
+        </header>
+        <figure class="case__cover" style="--bg:#003cb8"><img src="assets/img/metro-cover.webp" width="876" height="605" alt="Portada del manual de identidad del Metropolitano" loading="lazy" decoding="async"></figure>
+
+        <section class="case__block"><h3><span>01</span> Contexto y desafío</h3><div>
+          <p>Un sistema de transporte se usa todos los días, con prisa. Su identidad tiene que <strong>orientar, dar confianza y sentirse cercana</strong> a millones de usuarios, en un entorno visual saturado.</p>
+        </div></section>
+
+        <section class="case__block"><h3><span>02</span> Concepto y estrategia</h3><div>
+          <p>Movimiento y cercanía. Una <strong>curva amarilla</strong> —trayecto, sol, energía— atraviesa un azul cobalto que transmite confianza. El símbolo “M” se dinamiza para sugerir avance. El lema de campaña lo resume: <strong>“Más cerca de ti, en cada viaje.”</strong></p>
+        </div></section>
+
+        <section class="case__block"><h3><span>03</span> Proceso creativo</h3><div>
+          <p>Rediseño del símbolo y logotipo, definición de paleta y tipografía, y construcción de un sistema de color por ruta para la señalética. Luego, aplicaciones reales que pusieran a prueba el sistema: campaña, identificación del personal y señales de estación.</p>
+        </div></section>
+
+        <section class="case__block"><h3><span>04</span> Solución visual</h3><div><p>Un sistema donde cada ruta tiene su color (A verde, B celeste, C naranja) y la curva amarilla une todas las piezas.</p></div>
+          <div class="gallery g-12">
+            <figure style="--bg:#003cb8"><img src="assets/img/metro-poster.webp" width="424" height="605" alt="Afiche de campaña: Más cerca de ti, en cada viaje" loading="lazy" decoding="async"></figure>
+            <figure style="--bg:#fff"><img src="assets/img/metro-signs.webp" width="820" height="416" alt="Señalética de estación 28 de Julio para las rutas A, C y B" loading="lazy" decoding="async" style="object-fit:contain"></figure>
+          </div>
+          <div class="gallery g-2">
+            <figure style="--bg:#003cb8"><img src="assets/img/metro-id.webp" width="378" height="605" alt="Fotocheck de conductor con la identidad del Metropolitano" loading="lazy" decoding="async" style="object-fit:contain"></figure>
+            <figure style="--bg:#003cb8"><img src="assets/img/metro-cover.webp" width="876" height="605" alt="Manual de identidad del Metropolitano" loading="lazy" decoding="async"></figure>
+          </div>
+        </section>
+
+        <section class="case__block"><h3><span>05</span> Resultados e impacto</h3><div>
+          <ul>
+            <li>Manual de identidad con reglas de uso del símbolo, color y tipografía.</li>
+            <li>Sistema de señalética por color que facilita la orientación del usuario.</li>
+            <li>Aplicaciones que demuestran la versatilidad de la marca: de un afiche a una credencial.</li>
+          </ul>
+        </div></section>
+
+        <a class="case__next" href="#caso-kokoro" data-case="caso-kokoro"><small>Siguiente caso</small><span>Kokoro →</span></a>
+      </article>
+    </div>
+  </dialog>
+
+  <!-- 06 · Kokoro -->
+  <dialog class="case" id="caso-kokoro" aria-labelledby="t-kokoro">
+    <div class="case__scroll" data-lenis-prevent>
+      <div class="case__bar"><span>Caso 06 / 08 — Personal</span><button class="case__close" type="button" data-close>Cerrar <span aria-hidden="true">✕</span></button></div>
+      <article class="case__body">
+        <header class="case__head">
+          <p class="eyebrow">Animación 2D · Ilustración</p>
+          <h2 id="t-kokoro">Kokoro</h2>
+          <p class="case__lede">Animación 2D frame by frame en Procreate Dreams. Me encargué de la animación y de la edición del video final.</p>
+          <dl class="case__facts">
+            <div><dt>Formato</dt><dd>Cortometraje animado 2D</dd></div>
+            <div><dt>Mi rol</dt><dd>Animación y edición del video final</dd></div>
+            <div><dt>Técnica</dt><dd>Frame by frame</dd></div>
+            <div><dt>Ver</dt><dd><a class="link-u" href="https://youtu.be/bczVLq9x4W4" target="_blank" rel="noopener">YouTube ↗</a></dd></div>
+          </dl>
+        </header>
+        <a href="https://youtu.be/bczVLq9x4W4" target="_blank" rel="noopener" aria-label="Ver Kokoro en YouTube">
+          <figure class="case__cover" style="--bg:#f3e7bf"><img src="assets/img/kokoro.webp" width="1063" height="596" alt="Fotograma de Kokoro: un oso preocupado sostiene una taza junto a una ventana con cortinas amarillas" loading="lazy" decoding="async"></figure>
+        </a>
+
+        <section class="case__block"><h3><span>01</span> Contexto y desafío</h3><div>
+          <p>Contar una emoción sin palabras. <em>Kokoro</em> —“corazón” en japonés— necesitaba que un personaje transmitiera lo que siente solo con gestos, ritmo y color.</p>
+        </div></section>
+        <section class="case__block"><h3><span>02</span> Concepto y estrategia</h3><div>
+          <p>Calidez hecha a mano. Un oso de rasgos suaves, texturas de pintura visibles y una paleta cálida —amarillos, cremas y azules— que hace que la escena se sienta íntima.</p>
+        </div></section>
+        <section class="case__block"><h3><span>03</span> Proceso creativo</h3><div>
+          <p>Animación cuadro a cuadro en Procreate Dreams: cada fotograma dibujado a mano para lograr expresiones sutiles —cejas, mirada, respiración—. Después, la edición del video final: ritmo, cortes y montaje.</p>
+        </div></section>
+        <section class="case__block"><h3><span>04</span> Solución visual</h3><div>
+          <p>Una pieza audiovisual con estética de libro ilustrado, donde el movimiento está al servicio de la emoción.</p>
+          <p><a class="btn" href="https://youtu.be/bczVLq9x4W4" target="_blank" rel="noopener">Ver animación en YouTube <span class="arrow" aria-hidden="true">↗</span></a></p>
+        </div></section>
+        <section class="case__block"><h3><span>05</span> Resultados e impacto</h3><div>
+          <ul>
+            <li>Cortometraje completo, de la animación a la edición final, realizado por mí.</li>
+            <li>Dominio de animación frame by frame y de flujos de trabajo en Procreate Dreams.</li>
+          </ul>
+        </div></section>
+
+        <a class="case__next" href="#caso-photoshop" data-case="caso-photoshop"><small>Siguiente caso</small><span>Pósters & ilustración digital →</span></a>
+      </article>
+    </div>
+  </dialog>
+
+  <!-- 07 · Photoshop -->
+  <dialog class="case" id="caso-photoshop" aria-labelledby="t-ps">
+    <div class="case__scroll" data-lenis-prevent>
+      <div class="case__bar"><span>Caso 07 / 08 — Personal</span><button class="case__close" type="button" data-close>Cerrar <span aria-hidden="true">✕</span></button></div>
+      <article class="case__body">
+        <header class="case__head">
+          <p class="eyebrow">Ilustración · Póster · Edición</p>
+          <h2 id="t-ps">Pósters & ilustración digital</h2>
+          <p class="case__lede">Trabajos de edición y pintura digital en Photoshop: un póster musical y una serie narrativa ilustrada.</p>
+          <dl class="case__facts">
+            <div><dt>Tipo</dt><dd>Proyectos personales (fan art)</dd></div>
+            <div><dt>Mi rol</dt><dd>Ilustración, composición y tipografía</dd></div>
+            <div><dt>Piezas</dt><dd>Póster “Submarine” y serie de 3 ilustraciones</dd></div>
+            <div><dt>Herramientas</dt><dd>Photoshop</dd></div>
+          </dl>
+        </header>
+
+        <section class="case__block"><h3><span>01</span> Contexto y desafío</h3><div>
+          <p>Explorar dos lenguajes distintos dentro de una misma herramienta: la atmósfera de un <strong>póster musical</strong> y la narrativa de una <strong>secuencia ilustrada</strong>.</p>
+        </div></section>
+        <section class="case__block"><h3><span>02</span> Concepto y estrategia</h3><div>
+          <ul>
+            <li><strong>Submarine:</strong> un álbum que suena a profundidad. Medusas luminosas flotando en un azul abisal, con el tracklist como textura tipográfica.</li>
+            <li><strong>Serie narrativa:</strong> tres momentos de una historia de amor —el sueño compartido, la ausencia y la promesa cumplida— contados con color y texto manuscrito.</li>
+          </ul>
+        </div></section>
+        <section class="case__block"><h3><span>03</span> Proceso creativo</h3><div>
+          <p>Composición, fotomontaje y pintura digital por capas. En la serie, la paleta cambia con la emoción: tonos cálidos para el recuerdo, sombríos para la pérdida y luminosos para el final.</p>
+        </div></section>
+        <section class="case__block"><h3><span>04</span> Solución visual</h3><div><p>Cuatro piezas verticales pensadas para impresión y redes.</p></div>
+          <div class="gallery g-4 g-tight">
+            <figure style="--bg:#10142a"><img src="assets/img/ps-submarine.webp" width="390" height="591" alt="Póster Submarine: medusas luminosas sobre fondo azul oscuro" loading="lazy" decoding="async"></figure>
+            <figure><img src="assets/img/ps-up-1.webp" width="318" height="591" alt="Ilustración: Carl y Ellie soñaban con una casa en lo alto del mundo" loading="lazy" decoding="async"></figure>
+            <figure><img src="assets/img/ps-up-2.webp" width="319" height="591" alt="Ilustración: Carl solo en su sillón junto al sillón vacío de Ellie" loading="lazy" decoding="async"></figure>
+            <figure><img src="assets/img/ps-up-3.webp" width="320" height="591" alt="Ilustración: la casa con globos sobre la cascada, la promesa cumplida" loading="lazy" decoding="async"></figure>
+          </div>
+        </section>
+        <section class="case__block"><h3><span>05</span> Resultados e impacto</h3><div>
+          <ul>
+            <li>Dominio de composición, color y tipografía al servicio de una atmósfera.</li>
+            <li>Capacidad de contar una historia en secuencia, pieza a pieza.</li>
+          </ul>
+        </div></section>
+
+        <a class="case__next" href="#caso-infantil" data-case="caso-infantil"><small>Siguiente caso</small><span>Ilustración infantil →</span></a>
+      </article>
+    </div>
+  </dialog>
+
+  <!-- 08 · Ilustración infantil -->
+  <dialog class="case" id="caso-infantil" aria-labelledby="t-ill">
+    <div class="case__scroll" data-lenis-prevent>
+      <div class="case__bar"><span>Caso 08 / 08 — Académico</span><button class="case__close" type="button" data-close>Cerrar <span aria-hidden="true">✕</span></button></div>
+      <article class="case__body">
+        <header class="case__head">
+          <p class="eyebrow">Ilustración · Editorial</p>
+          <h2 id="t-ill">Ilustración infantil</h2>
+          <p class="case__lede">Escenas para cuentos ilustrados: personajes, escenarios y páginas que invitan a leer.</p>
+          <dl class="case__facts">
+            <div><dt>Tipo</dt><dd>Proyecto académico</dd></div>
+            <div><dt>Mi rol</dt><dd>Ilustración de personajes y escenarios</dd></div>
+            <div><dt>Técnica</dt><dd>Pintura digital y línea</dd></div>
+            <div><dt>Herramientas</dt><dd>Procreate</dd></div>
+          </dl>
+        </header>
+        <figure class="case__cover" style="--bg:#dfe9c8"><img src="assets/img/ill-3.webp" width="956" height="594" alt="Ilustración en línea: Tomás sale al jardín tras escuchar un ruido entre los arbustos" loading="lazy" decoding="async"></figure>
+
+        <section class="case__block"><h3><span>01</span> Contexto y desafío</h3><div>
+          <p>Ilustrar para niños exige <strong>claridad emocional</strong>: personajes expresivos, escenarios que inviten a explorar y espacio para el texto en la página.</p>
+        </div></section>
+        <section class="case__block"><h3><span>02</span> Concepto y estrategia</h3><div>
+          <p>La naturaleza como lugar de descubrimiento. Bosques llenos de flores y luz para la historia a color; trazo limpio y composición abierta para la historia en línea, donde el texto manuscrito forma parte de la ilustración.</p>
+        </div></section>
+        <section class="case__block"><h3><span>03</span> Proceso creativo</h3><div>
+          <p>Diseño de personajes, bocetos de composición pensando en el pliego del libro, entintado y color. Cada escena deja respirar la mirada del personaje para guiar la lectura.</p>
+        </div></section>
+        <section class="case__block"><h3><span>04</span> Solución visual</h3><div><p>Dos lenguajes para dos historias: color exuberante y línea expresiva.</p></div>
+          <div class="gallery g-2">
+            <figure style="--bg:#dfe9c8"><img src="assets/img/ill-1.webp" width="570" height="280" alt="Niña de cabello rizado entre árboles y flores de colores" loading="lazy" decoding="async"></figure>
+            <figure style="--bg:#dfe9c8"><img src="assets/img/ill-2.webp" width="570" height="280" alt="La niña observa un bosque luminoso con rayos de sol" loading="lazy" decoding="async"></figure>
+          </div>
+        </section>
+        <section class="case__block"><h3><span>05</span> Resultados e impacto</h3><div>
+          <ul>
+            <li>Escenas listas para maquetar en formato de libro ilustrado.</li>
+            <li>Versatilidad entre ilustración a color y en línea.</li>
+          </ul>
+        </div></section>
+
+        <a class="case__next" href="#caso-marketing-thinking" data-case="caso-marketing-thinking"><small>Volver al inicio</small><span>Marketing Thinking →</span></a>
+      </article>
+    </div>
+  </dialog>
+
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/motion.js" defer></script>
+</body>
+</html>
